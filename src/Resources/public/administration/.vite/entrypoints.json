@@ -1,0 +1,25 @@
+{
+  "base": "/bundles/actorderinvoicenumberfilter/administration/",
+  "entryPoints": {
+    "act-order-invoice-number-filter": {
+      "css": [
+        "/bundles/actorderinvoicenumberfilter/administration/assets/act-order-invoice-number-filter-DgKkqYy3.css"
+      ],
+      "dynamic": [],
+      "js": [
+        "/bundles/actorderinvoicenumberfilter/administration/assets/act-order-invoice-number-filter-PD4KgZAK.js"
+      ],
+      "legacy": false,
+      "preload": []
+    }
+  },
+  "legacy": false,
+  "metadatas": {},
+  "version": [
+    "7.1.0",
+    7,
+    1,
+    0
+  ],
+  "viteServer": null
+}

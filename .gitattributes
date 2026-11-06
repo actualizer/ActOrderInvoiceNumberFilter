@@ -1,0 +1,3 @@
+/.github            export-ignore
+/phpstan.neon.dist  export-ignore
+/.gitattributes     export-ignore

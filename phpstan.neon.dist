@@ -1,0 +1,11 @@
+parameters:
+    level: 8
+    # PHPDoc types are HINTS, not GUARANTEES. Lazy DAL hydration and framework
+    # version drift can violate them at runtime. Treat them as uncertain so
+    # defensive guards are not flagged as redundant.
+    treatPhpDocTypesAsCertain: false
+    reportUnmatchedIgnoredErrors: false
+    paths:
+        - src/
+    excludePaths:
+        - src/Migration/*

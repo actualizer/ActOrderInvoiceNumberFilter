@@ -1,0 +1,11 @@
+{
+  "main.js": {
+    "file": "assets/act-order-invoice-number-filter-PD4KgZAK.js",
+    "name": "act-order-invoice-number-filter",
+    "src": "main.js",
+    "isEntry": true,
+    "css": [
+      "assets/act-order-invoice-number-filter-DgKkqYy3.css"
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{% block sw_filter_panel_extension_point %}
+    {% parent() %}
+
+    <act-order-invoice-number-filter
+        v-else-if="showFilter(filter, 'act-order-invoice-number-filter')"
+        :filter="filter"
+        :active="!!activeFilters[filter.name]"
+        @filter-update="updateFilter"
+        @filter-reset="resetFilter"
+    />
+{% endblock %}

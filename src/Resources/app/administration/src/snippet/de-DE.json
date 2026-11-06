@@ -1,0 +1,22 @@
+{
+    "act-order-invoice-number-filter": {
+        "filter": {
+            "label": "Rechnungsnummer",
+            "placeholder": "Rechnungsnummer eingeben …"
+        },
+        "settings": {
+            "info": {
+                "howTo": {
+                    "title": "So funktioniert's",
+                    "item1": "Das Plugin braucht keine Einstellungen. Nach der Aktivierung steht der Filter allen Benutzern zur Verfügung, die die Bestellübersicht öffnen dürfen.",
+                    "item2": "Zu finden unter <strong>Bestellungen &gt; Übersicht</strong> &gt; Filter-Seitenleiste &gt; Feld <strong>Rechnungsnummer</strong> (ganz unten).",
+                    "item3": "Die Nummer muss exakt stimmen: 100 findet nicht 1000. Mehrere Nummern lassen sich durch Komma trennen.",
+                    "item4": "Als Rechnung zählen normale Rechnungen und ZUGFeRD-E-Rechnungen. Stornorechnungen, Gutschriften, Lieferscheine und andere Dokumente werden ignoriert, auch bei gleicher Nummer."
+                },
+                "openOrderListLink": "Zur Bestellübersicht",
+                "description": "Filter nach Rechnungsnummer in der Bestellübersicht.",
+                "issues": "Probleme oder Feature-Wünsche?"
+            }
+        }
+    }
+}

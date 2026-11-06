@@ -1,0 +1,22 @@
+{
+    "act-order-invoice-number-filter": {
+        "filter": {
+            "label": "Invoice number",
+            "placeholder": "Enter invoice number …"
+        },
+        "settings": {
+            "info": {
+                "howTo": {
+                    "title": "How it works",
+                    "item1": "The plugin needs no configuration. After activation the filter is available to every user who may open the order overview.",
+                    "item2": "Found under <strong>Orders &gt; Overview</strong> &gt; filter sidebar &gt; field <strong>Invoice number</strong> (at the bottom).",
+                    "item3": "The number has to match exactly: 100 does not find 1000. Several numbers can be separated by commas.",
+                    "item4": "Regular invoices and ZUGFeRD e-invoices count as invoices. Cancellation invoices, credit notes, delivery notes and other documents are ignored, even with the same number."
+                },
+                "openOrderListLink": "Open the order overview",
+                "description": "Invoice number filter for the order overview.",
+                "issues": "Problems or feature requests?"
+            }
+        }
+    }
+}

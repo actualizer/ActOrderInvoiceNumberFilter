@@ -1,0 +1,48 @@
+{
+    "name": "actualizer/order-invoice-number-filter",
+    "description": "Invoice number filter for the order overview",
+    "version": "1.0.0",
+    "type": "shopware-platform-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Actualize",
+            "email": "plugin@actualize.de",
+            "homepage": "https://actualize.de",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "shopware/core": ">=6.7 <6.8",
+        "shopware/administration": ">=6.7 <6.8",
+        "php": ">=8.4"
+    },
+    "extra": {
+        "shopware-plugin-class": "Act\\OrderInvoiceNumberFilter\\ActOrderInvoiceNumberFilter",
+        "label": {
+            "de-DE": "Actualize: Rechnungsnummer-Filter in der Bestellübersicht",
+            "en-GB": "Actualize: Invoice Number Filter in Order Overview"
+        },
+        "description": {
+            "de-DE": "Ergänzt die Bestellübersicht um einen Filter nach Rechnungsnummer. Er findet Bestellungen, deren Rechnung oder E-Rechnung die Nummer trägt; mehrere Nummern per Komma.",
+            "en-GB": "Adds an invoice number filter to the order overview. It finds orders whose invoice or e-invoice (ZUGFeRD) carries the entered number; several numbers can be comma-separated."
+        },
+        "manufacturerLink": {
+            "de-DE": "https://actualize.de",
+            "en-GB": "https://actualize.de"
+        },
+        "supportLink": {
+            "de-DE": "https://github.com/actualizer/ActOrderInvoiceNumberFilter/issues",
+            "en-GB": "https://github.com/actualizer/ActOrderInvoiceNumberFilter/issues"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Act\\OrderInvoiceNumberFilter\\": "src/"
+        }
+    },
+    "scripts": {
+        "format": "docker run --rm -v $(pwd):/ext shopware/shopware-cli:latest extension format /ext",
+        "check": "docker run --rm -v $(pwd):/ext shopware/shopware-cli:latest extension validate --full /ext"
+    }
+}

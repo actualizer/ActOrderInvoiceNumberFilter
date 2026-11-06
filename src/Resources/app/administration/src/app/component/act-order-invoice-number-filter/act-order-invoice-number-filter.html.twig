@@ -1,0 +1,16 @@
+{% block act_order_invoice_number_filter %}
+<sw-base-filter
+    :title="filter.label"
+    :show-reset-button="!!filter.value"
+    :active="active"
+    @filter-reset="resetFilter"
+>
+    {% block act_order_invoice_number_filter_content %}
+    <mt-text-field
+        :model-value="filter.value"
+        :placeholder="filter.placeholder"
+        @change="changeValue"
+    />
+    {% endblock %}
+</sw-base-filter>
+{% endblock %}
