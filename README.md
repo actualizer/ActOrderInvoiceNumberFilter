@@ -5,7 +5,7 @@ order overview. It finds orders that carry an invoice document with the entered 
 
 ## Requirements
 
-- Shopware 6.7
+- Shopware `>=6.7 <6.8`, tested with 6.7.16.0
 - PHP 8.4 or higher
 
 ## Installation
